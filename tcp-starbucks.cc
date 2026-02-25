@@ -1,3 +1,6 @@
+// ./ns3 run "scratch/tcp-starbucks --tcp=BBR"
+// ./ns3 run "scratch/tcp-starbucks --tcp=CUBIC"
+
 #include "ns3/core-module.h"
 #include "ns3/network-module.h"
 #include "ns3/internet-module.h"
