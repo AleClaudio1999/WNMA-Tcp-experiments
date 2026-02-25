@@ -1,3 +1,4 @@
+// for execution ./ns3 run "scratch/tcp-download --tcp=CUBIC" or ./ns3 run "scratch/tcp-download --tcp=BBR"
 #include "ns3/core-module.h"
 #include "ns3/network-module.h"
 #include "ns3/internet-module.h"
