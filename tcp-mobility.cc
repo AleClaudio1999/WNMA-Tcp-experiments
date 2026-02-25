@@ -1,3 +1,6 @@
+// for execution ./ns3 run "scratch/tcp-mobility --tcp=BBR"
+// for execution ./ns3 run "scratch/tcp-mobility --tcp=CUBIC"
+
 #include "ns3/core-module.h"
 #include "ns3/network-module.h"
 #include "ns3/internet-module.h"
