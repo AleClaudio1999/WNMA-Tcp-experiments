@@ -10,7 +10,7 @@ sudo apt install -y build-essential cmake ninja-build git python3
 #Download ns-3
 git clone https://gitlab.com/nsnam/ns-3-dev.git
 cd ns-3-dev
-Configure and Build
+#Configure and Build
 ./ns3 configure
 ./ns3 build
 ```
