@@ -87,7 +87,7 @@ tcpdump -i <SENDER_IFACE> -w sender_<scenario>.pcap tcp
 Captured traces are analyzed using `tcpstat`:
 
 ```
-tcpstat -r sender_<scenario>.pcap 0.5 -o "%R\t%T\n"
+tcpstat -r sender_<scenario>.pcap 0.5 -o "%R\t%b\n"
 ```
 
 ### Sender Configuration
