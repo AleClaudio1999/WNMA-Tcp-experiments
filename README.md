@@ -14,6 +14,7 @@ Configure and Build
 ./ns3 configure
 ./ns3 build
 ```
+Then put each source code in to the `/scratch` directory and move to the ns3 directory for execution 
 
 ## Experiment A1 – Fairness Evaluation
 In this experiment, fairness is intended as **intra-protocol fairness**, namely the ability of a TCP algorithm to evenly distribute the available bandwidth among multiple flows that use the same congestion control algorithm.
